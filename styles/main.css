@@ -1,0 +1,19 @@
+    /* ------------ MAIN PAGE CONTENT ------------ */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-variant);
+}
+
+.main-container {
+
+}
+
+.main-header {
+
+}
+
+.main-body {
+
+}
