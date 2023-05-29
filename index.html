@@ -1,52 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/media.css">
-    <title>Note Repository v1.0</title>
-</head>
-<body>
-
-    <!-- ------------ PAGE FRAME ------------ -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>noteRepository</title>
+  </head>
+  <body>
+    <!-- ------------ PAGE FRAME [START] ------------ -->
     <div class="container">
-
-    <!-- ------------ NAVIGATION ------------ -->
-        <div class="nav-container">
-
-            <div class="nav-logo">
-                <h4 class="logo">NOTE REPOSITORY v1.0</h4>
-                <p><span class="logo-tag">by Haydon Jay</span></p>
-            </div>
-
-            <div class="nav-pages">
-                <button type="button" class="nav-collapsible"><p>
-                <span>&#x3e;</span>Programming</p></button>
-                <div class="nav-content">
-                    <a class="nav-link" href="#">Button 1</a>
-                    <a class="nav-link" href="#">Button 2</a>
-                    <a class="nav-link" href="#">Button 3</a>
-                </div>
-                
-                <button type="button" class="nav-collapsible"><p>
-                <span>&#x3e;</span>Chess</p></button>
-                <div class="nav-content">
-                    <a class="nav-link" href="#">Button 1</a>
-                    <a class="nav-link" href="#">Button 2</a>
-                    <a class="nav-link" href="#">Button 3</a>
-                </div>
-            </div>
+      <!-- ------------ NAVIGATION ------------ -->
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h4 class="logo">The Note Repo.</h4>
+          <p><span class="logo-tag">by Haydon Jay</span></p>
         </div>
 
-    <!-- ------------ PAGE FRAME [END] ------------ -->
+        <div class="nav-pages">
+          <button type="button" class="nav-collapsible">
+            <p><span><i 
+								class="fa-solid fa-chevron-right fa-xs btn"
+                style="color: #bbb8a6"
+								></i></span>Programming</p>
+          </button>
+          <div class="nav-content">
+            <a class="nav-link" href="#">Button 1</a>
+            <a class="nav-link" href="#">Button 2</a>
+            <a class="nav-link" href="#">Button 3</a>
+          </div>
+
+          <button type="button" class="nav-collapsible">
+            <p>
+              <span><i 
+								class="fa-solid fa-chevron-right fa-xs btn"
+                style="color: #bbb8a6"
+								></i></span>Chess</p>
+          </button>
+          <div class="nav-content">
+            <a class="nav-link" href="#">Button 1</a>
+            <a class="nav-link" href="#">Button 2</a>
+            <a class="nav-link" href="#">Button 3</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------ MAIN CONTENT AREA ------------ -->
+      <div class="main-container">
+				<div class="main-wrapper">
+					<div class="content-container">
+						<div class="content-header content-param">
+							<h1>This is a header</h1>
+						</div>
+						<div class="content-description content-param-indent">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="content-subheader content-param">
+							<h2>Subheader</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+				<!-- TO BE ADDED LATER
+				<div class="table-of-contents">
+
+				</div>
+				-->
+			</div>
+
+      <!-- ------------ PAGE FRAME [END] ------------ -->
     </div>
 
     <!-- ------------ SCRIPT INJECTIONS ------------ -->
     <script src="js/nav-collapse.js"></script>
-
-</body>
+    <script src="js/nav-chevron.js"></script>
+  </body>
 </html>

@@ -14,7 +14,7 @@
 :root {
     --primary-color: #272822;
     --primary-variant: #272822;
-    --secondary-color: #333842;
+    --secondary-color: #3e3d32;
     --on-primary: #ccc;
     --background: #1e1f1c;
     --box-shadow: 0 5px 20px 1px rgba(0,0,0,0.5);
@@ -32,6 +32,7 @@ body {
 p {
     font-weight: light;
     font-size: 14px;
+    line-height: 1.8 !important;
     color:var(--paragraph) !important;
 }
 
@@ -42,14 +43,14 @@ h1 {
 }
 
 h2 {
-    font-weight: bold;
-    font-size: 28px;
+    font-weight: 100;
+    font-size: 24px;
     color:var(--header) !important; 
 }
 
 h3 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     color:var(--header) !important; 
 }
 
